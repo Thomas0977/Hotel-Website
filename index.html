@@ -62,12 +62,6 @@
             font-size: 1.2rem;
         }
 
-        .gallery img {
-            width: 100%;
-            height: auto;
-            border-radius: 10px;
-        }
-
         .testimonials {
             background-color: #f8f9fa;
             padding: 3rem 1rem;
@@ -88,12 +82,12 @@
         .contact-info {
             background-color: #f8f9fa;
             padding: 2rem;
-            text-align: center;
         }
 
         .contact-info h3 {
             font-size: 2rem;
             color: #4CAF50;
+            text-align: center;
         }
 
         .contact-info p {
@@ -108,6 +102,10 @@
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
             <a class="navbar-brand" href="#">Hotel Lemon & Lodge</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
@@ -115,9 +113,6 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#offers">What We Offer</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#gallery">Gallery</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#testimonials">Testimonials</a>
@@ -166,4 +161,93 @@
             </div>
             <div class="col-md-6 offer-item">
                 <strong>Comfortable Lodge Accommodations:</strong>
-                <p>Relax in
+                <p>Relax in our well-furnished, cozy rooms with modern amenities for a restful stay.</p>
+            </div>
+            <div class="col-md-6 offer-item">
+                <strong>Tour Booking Services for Eastern Nepal:</strong>
+                <p>Explore the natural beauty, cultural landmarks, and adventurous sites of Eastern Nepal with our expert
+                    tour booking services.</p>
+            </div>
+            <div class="col-md-6 offer-item">
+                <strong>Convenient Food Delivery:</strong>
+                <p>Savor our delicious dishes and drinks delivered straight to your doorstep, fresh and on time.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <h2 class="section-title">What Our Guests Say</h2>
+        <div class="container">
+            <div class="testimonial-item">
+                <p>"The food was incredible, and the lodge was cozy and comfortable. Highly recommend Hotel Lemon & Lodge
+                    for anyone visiting Eastern Nepal!" - John Doe</p>
+            </div>
+            <div class="testimonial-item">
+                <p>"Their customized food preparation and tour booking services made my trip unforgettable. Great
+                    hospitality!" - Jane Smith</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq container py-5">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <strong>Do you offer vegetarian options?</strong>
+            <p>Yes, we offer a variety of vegetarian and vegan dishes prepared with fresh ingredients.</p>
+        </div>
+        <div class="faq-item">
+            <strong>Is there parking available?</strong>
+            <p>Yes, we provide free parking for all our guests.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-info">
+        <h3>Contact Us</h3>
+        <p>For bookings, inquiries, and more, feel free to reach out:</p>
+        <div class="container">
+            <div class="row">
+                <!-- Contact Details -->
+                <div class="col-md-6 mb-4">
+                    <h4>Contact Details</h4>
+                    <p><strong>Phone:</strong> +977-9826360993</p>
+                    <p><strong>Email:</strong> <a href="mailto:hotellemon.np@gmail.com">hotellemon.np@gmail.com</a></p>
+                    <p><strong>Address:</strong> Main Street, Eastern Nepal</p>
+                </div>
+                <!-- Location Map -->
+                <div class="col-md-6 mb-4">
+                    <h4>Find Us</h4>
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1761.4175125863148!2d86.91977187882823!3d26.658636679700633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ef42ef0f93d5cd%3A0xb205d92e4159bbee!2sEastern%20Nepal!5e0!3m2!1sen!2snp!4v1610617777851!5m2!1sen!2snp" 
+                        width="100%" 
+                        height="250" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy"></iframe>
+                </div>
+            </div>
+            <!-- Social Media Links -->
+            <div class="row text-center mt-4">
+                <h4>Connect with Us</h4>
+                <p>
+                    <a href="#" class="btn btn-success btn-sm me-2">Facebook</a>
+                    <a href="#" class="btn btn-success btn-sm me-2">Instagram</a>
+                    <a href="#" class="btn btn-success btn-sm me-2">Twitter</a>
+                    <a href="#" class="btn btn-success btn-sm">WhatsApp</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <p>&copy; 2025 Hotel Lemon & Lodge. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
