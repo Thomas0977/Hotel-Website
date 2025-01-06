@@ -36,7 +36,7 @@
         }
 
         .jumbotron {
-            background-color: rgba(76, 175, 80, 0.9);
+            background: linear-gradient(rgba(76, 175, 80, 0.9), rgba(34, 139, 34, 0.8));
             color: white;
             text-align: center;
             padding: 5rem 0;
@@ -92,6 +92,60 @@
 
         .contact-info p {
             font-size: 1.2rem;
+        }
+
+        @media (max-width: 768px) {
+            .jumbotron h1 {
+                font-size: 2.5rem;
+            }
+
+            .jumbotron p {
+                font-size: 1.2rem;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .contact-info h3 {
+                font-size: 1.8rem;
+            }
+
+            .offer-item {
+                font-size: 1rem;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .jumbotron {
+                padding: 3rem 1rem;
+            }
+
+            .jumbotron h1 {
+                font-size: 2rem;
+            }
+
+            .jumbotron p {
+                font-size: 1rem;
+            }
+
+            .section-title {
+                font-size: 1.8rem;
+            }
+
+            .contact-info h3 {
+                font-size: 1.6rem;
+            }
+
+            .offer-item {
+                font-size: 0.9rem;
+            }
+        }
+
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
         }
     </style>
 </head>
